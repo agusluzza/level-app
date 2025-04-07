@@ -6,10 +6,10 @@ function Contact() {
       <div className="max-w-5xl px-4 xl:px-0 py-10 lg:py-20 mx-auto">
         <div className="max-w-3xl mb-10 lg:mb-14">
           <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
-            Contact us
+            Contactanos
           </h2>
           <p className="mt-1 text-neutral-400">
-            Whatever your goal - we will get you there.
+            Te ayudamos a llegar a tu objetivo
           </p>
         </div>
 
@@ -40,7 +40,7 @@ function Contact() {
                   peer-not-placeholder-shown:-translate-y-1.5
                   peer-not-placeholder-shown:text-neutral-400"
                   >
-                    Name
+                    Nombre
                   </label>
                 </div>
 
@@ -94,7 +94,7 @@ function Contact() {
                   peer-not-placeholder-shown:-translate-y-1.5
                   peer-not-placeholder-shown:text-neutral-400"
                   >
-                    Company
+                    Empresa
                   </label>
                 </div>
 
@@ -121,7 +121,7 @@ function Contact() {
                   peer-not-placeholder-shown:-translate-y-1.5
                   peer-not-placeholder-shown:text-neutral-400"
                   >
-                    Phone
+                    Telefono
                   </label>
                 </div>
 
@@ -148,14 +148,14 @@ function Contact() {
                   peer-not-placeholder-shown:-translate-y-1.5
                   peer-not-placeholder-shown:text-neutral-400"
                   >
-                    Tell us about your project
+                    Contanos sobre tu proyecto
                   </label>
                 </div>
               </div>
 
               <div className="mt-2">
                 <p className="text-xs text-neutral-500">
-                  All fields are required
+                  Todos los campos son requeridos
                 </p>
 
                 <p className="mt-5">
@@ -163,7 +163,7 @@ function Contact() {
                     className="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden"
                     href="#"
                   >
-                    Submit
+                    Enviar
                     <svg
                       className="shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0"
                       xmlns="http://www.w3.org/2000/svg"
@@ -187,30 +187,7 @@ function Contact() {
 
           <div className="space-y-14">
             <div className="flex gap-x-5">
-              <svg
-                className="shrink-0 size-6 text-neutral-500"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              <div className="grow">
-                <h4 className="text-white font-semibold">Our address:</h4>
-
-                <address className="mt-1 text-neutral-400 text-sm not-italic">
-                  300 Bath Street, Tay House
-                  <br />
-                  Glasgow G2 4JR, United Kingdom
-                </address>
-              </div>
+              <div className="grow"></div>
             </div>
 
             <div className="flex gap-x-5">
@@ -259,7 +236,7 @@ function Contact() {
                 <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
               </svg>
               <div className="grow">
-                <h4 className="text-white font-semibold">We're hiring</h4>
+                <h4 className="text-white font-semibold">Te estamos buscando</h4>
                 <p className="mt-1 text-neutral-400">
                   We're thrilled to announce that we're expanding our team and
                   looking for talented individuals like you to join us.
