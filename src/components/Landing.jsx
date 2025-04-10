@@ -11,7 +11,7 @@ export default function Header() {
               href="https://Level App.co/templates/agency/index.html"
               aria-label="Level App"
             >
-              <svg
+              {/* <svg
                 className="w-28 h-auto"
                 width="116"
                 height="32"
@@ -43,7 +43,7 @@ export default function Header() {
                   className="fill-white"
                   fill="currentColor"
                 />
-              </svg>
+              </svg> */}
             </a>
           </div>
 
